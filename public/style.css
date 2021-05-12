@@ -36,14 +36,14 @@ a:hover {
   cursor: pointer;
 }
 
-button {
+/* button {
   appearance: none;
   border: 1px solid var(--jdarkgray);
   border-radius: 5px;
   background-color: var(--gray);
-}
+} */
 
-button:hover{
+/* button:hover{
   cursor: pointer;
   background-color: var(--jwhite);
   color: var(--jblack);
@@ -52,7 +52,7 @@ button:hover{
 
 button:active {
   background-color:var(--jdarkgray);
-}
+} */
 
 body {
   display: flex;
