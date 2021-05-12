@@ -38,7 +38,7 @@ const Projects = () => {
       <header>projects</header>
       <div id="projects">
         {projArray.map((proj) => (
-          <Card {...proj} />
+          <Card {...proj} key={proj.github}/>
         ))}
       </div>
     </section>
