@@ -19,7 +19,7 @@ const Navbar = () => {
     >
       <div className="navRow">
         <a className="icon ignore" onClick={collapseNav}>
-          <i class="fa fa-bars" aria-hidden="true"></i>
+          <i className="fa fa-bars" aria-hidden="true"></i>
         </a>
         <NavLink to="/" className="ignore" id="logo">
           JB
