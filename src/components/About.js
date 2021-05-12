@@ -6,6 +6,7 @@ const About = () => {
     <div className="row" id="about">
       <div>
         <img
+          id="my-image"
           src={me}
           width="200px"
           height="200px"

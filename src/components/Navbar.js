@@ -21,15 +21,15 @@ const Navbar = () => {
         <a className="icon ignore" onClick={collapseNav}>
           <i className="fa fa-bars" aria-hidden="true"></i>
         </a>
-        <NavLink to="/" className="ignore" id="logo">
+        <a href="#" className="ignore" id="logo">
           JB
-        </NavLink>
+        </a>
         <div className="ignore" id="spacer"></div>
       </div>
-      <NavLink to="/about">about</NavLink>
-      <NavLink to="/projects">projects</NavLink>
-      <NavLink to="../assets/JBResume.pdf">resume</NavLink>
-      <NavLink to="/contact">contact</NavLink>
+      <a href="#about">about</a>
+      <a href="#projects">projects</a>
+      <a href="../assets/JBResume.pdf">resume</a>
+      <a href="#contact">contact</a>
       <a
         rel="noreferrer"
         target="_blank"
