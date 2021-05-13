@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Navbar = () => {
   const [responsive, setResponsive] = useState("");
@@ -19,9 +19,9 @@ const Navbar = () => {
     >
       <div className="navRow">
         <a className="icon ignore" onClick={collapseNav}>
-          <i className="fa fa-bars" aria-hidden="true"></i>
+          <FontAwesomeIcon icon={["fas", "bars"]} />
         </a>
-        <a href="#" className="ignore" id="logo">
+        <a href="#home" className="ignore" id="logo">
           JB
         </a>
         <div className="ignore" id="spacer"></div>
@@ -35,7 +35,7 @@ const Navbar = () => {
         target="_blank"
         href="https://www.linkedin.com/in/j-brennan-dev"
       >
-        <i className="fab fa-linkedin"></i>
+        <FontAwesomeIcon icon={["fab", "linkedin"]} />
       </a>
     </nav>
   );
