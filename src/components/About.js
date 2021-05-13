@@ -1,5 +1,6 @@
 import React from "react";
 import me from "../assets/images/me.JPG"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const About = () => {
   return (
@@ -21,7 +22,7 @@ const About = () => {
         <span>Forged in Philly.</span>
         <span>Tested by Temple University and University of Pennsylvania.</span>
         <span>
-          Trained by <i className="fab fa-apple" />
+          Trained by <FontAwesomeIcon icon={['fab', 'apple']} />
         </span>
         <span>And working for you.</span>
       </p>
